@@ -56,7 +56,7 @@ if won?(board)  || full?(board)  || draw?(board)
 end
 end
 
-def winner?(board)
+def winner(board)
 winning_array = won?(board)
   if winning_array
   board[winning_array[0]]
