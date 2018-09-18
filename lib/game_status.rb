@@ -60,5 +60,7 @@ def winner?(board)
 winning_array = won?(board)
   if winning_array
   board[winning_array[0]]
+ else
+  nil
   end
 end
